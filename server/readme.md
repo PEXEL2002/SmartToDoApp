@@ -83,16 +83,16 @@ Serwer domyślnie działa pod adresem `http://127.0.0.1:5000/`.
 
 ## 🔌 Endpointy API (skrót)
 
-| Metoda | Endpoint         | Opis                        |
-|--------|------------------|-----------------------------|
-| POST   | /auth/register   | Rejestracja użytkownika     |
-| POST   | /auth/login      | Logowanie i JWT             |
-| GET    | /tasks           | Pobranie listy zadań        |
-| POST   | /tasks           | Dodanie nowego zadania      |
-| PUT    | /tasks/<id>      | Edycja zadania              |
-| DELETE | /tasks/<id>      | Usunięcie zadania           |
+| Metoda | Endpoint                  | Opis                        |
+|--------|---------------------------|-----------------------------|
+| POST   | /todo/api/auth/register   | Rejestracja użytkownika     |
+| POST   | /todo/api/auth/login      | Logowanie i JWT             |
+| GET    | /todo/api/tasks           | Pobranie listy zadań        |
+| POST   | /todo/api/tasks           | Dodanie nowego zadania      |
+| PUT    | /todo/api /tasks/<id>     | Edycja zadania              |
+| DELETE | /todo/api/tasks/<id>      | Usunięcie zadania           |
 
-> Szczegóły znajdują się w plikach z katalogu `app/routes/`.
+> Szczegóły znajdują się w plikach z katalogu  [`app/routes/`](https://github.com/PEXEL2002/SmartToDoApp/tree/main/server/app/routes).
 
 ---
 
