@@ -3,6 +3,7 @@
 
 To REST API służy do zarządzania użytkownikami i zadaniami w aplikacji ToDo. Komunikuje się poprzez format JSON i używa JWT do autoryzacji.
 
+Aby dostać się do każdego z endpointów należy dodać `/todo/api`
 ---
 
 ## 🔐 Endpointy autoryzacji (`/auth`)
